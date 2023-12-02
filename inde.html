@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Botstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- CSS nativo-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/icons/tecnologia.png" type="image/x-icon">
+    <title>Michel Tech</title>
+</head>
+
+<body class="d-flex align-items-center flex-column">
+    <header class="headerPage container-fluid d-flex justify-content-between align-items-center">
+        <figure class="figureHeader d-flex align-items-center w-25 p-0 m-0">
+            <img src="./assets/icons/logo.png" width="40" alt="Logo da Michel Tech">
+            <figcaption class="fs-4">Michel Tech</figcaption>
+        </figure>
+        <nav class="navbarHeader w-50 d-flex justify-content-between px-2">
+            <ul style="list-style: none;" class="d-flex justify-content-between container px-2 m-0 fs-5 w-100">
+                <li><a href="#inicioPage"><i class="fs-2 navigate bi bi-house"></i></a></li>
+                <li><a href="#servicosPage"><i class="fs-2 navigate bi bi-gear"></i></a></li>
+                <li><a href="#projetosPage"><i class="fs-2 navigate bi bi-box"></i></a></li>
+                <li><a href="#sobrePage"><i class="fs-2 navigate bi bi-info-circle"></i></a></li>
+                <li><a href="#footer"><i class="fs-2 navigate bi bi-telephone"></i></a></li>
+            </ul>
+        </nav>
+        <div class="user w-25 d-flex justify-content-end pe-2">
+            <img src="./assets/icons/usuario.png" width="30" alt="Ícone de Usuário">
+        </div>
+    </header>
+
+    <main class="mainPage w-100 d-flex justify-content-center align-items-center flex-column">
+        <!-- Início -->
+        <section class="sections d-flex justify-content-center align-items-center w-100 vh-100 mb-4" id="inicioPage">
+            <div class="w-75 py-5 text-center">
+                <h1 class="fs-2">O novo mundo começa aqui!</h1>
+                <h6 class="fs-6">Venha nos conhecer</h6>
+                <button href="#servicosPage" class="button mt-4 w-50 fs-5">Tech?</button>
+            </div>
+        </section>
+
+        <!--MINI BANNERS-->
+        <section class="sections m-0 col-12 col-md-10 offset-md-1 mb-4" id="servicosPage">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="iconServices bi bi-modem"></i>
+                        <div class="card-body">
+                            <h5 class="card-tittle primaty-color fs-2">Infraestrutura</h5>
+                            <p class="card-text secondary-color fs-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="#" class="btnSaberMais fs-4 btn btn-dark">Saber mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="iconServices bi bi-tools"></i>
+                        <div class="card-body">
+                            <h5 class="card-tittle primaty-color fs-2">Manutenção</h5>
+                            <p class="card-text secondary-color fs-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="#" class="btnSaberMais fs-4 btn btn-dark">Saber mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="iconServices bi bi-lightning-charge"></i>
+                        <div class="card-body">
+                            <h5 class="card-tittle primaty-color fs-2">Softwares</h5>
+                            <p class="card-text secondary-color fs-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="#" class="btnSaberMais fs-4 btn btn-dark">Saber mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sections container mb-5" id="projetosPage">
+            <div class="col-12">
+                <h2 class="title primary-color">Trabalhos em Destaque</h2>
+                <p class="subtitle secondary-color">Conheça nossos projetos mais desafiadores</p>
+            </div>
+            <div class="col-12" id="featured-images">
+                <div class="row g-4">
+                    <div class="col-12 col-md-4">
+                        <img src="./assets/img/infra1.jpeg" alt="Cozinha com design moderno e vista para o quintal"
+                            class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Infraestrutura</p>
+                            <h3>Estruturas Planejada</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="./assets/img/soft1.jpg" alt="Vista de fora de um prédio branco moderno"
+                            class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Softwares</p>
+                            <h3>Softwares ágeis</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="./assets/img/infra2.jpeg" alt="Sala de estar com escada para o segundo andar"
+                            class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Infraestrutura</p>
+                            <h3>Projeção de ambiente</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="./assets/img/manut1.jpg" alt="Escada amadeirada com detalhes pretos"
+                            class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Manutenção</p>
+                            <h3>Reparação de Máquinas</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="./assets/img/infra3.jpg" alt="Cozinha predominantemente branca" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Infraestrutura</p>
+                            <h3>Distribuição de redes</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="./assets/img/manut2.jpg" alt="Tres casas similares uma ao lado da outra"
+                            class="img-fluid">
+                        <div class="banner-content">
+                            <p class="secondary-color">Manutenção</p>
+                            <h3>Circuitos integrados</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sections container mb-4" id="sobrePage">
+            <div class="col-12">
+                <h2 class="title primary-color">Detalhes Importante</h2>
+                <p class="subtitle secondary-color">Saiba mais sobre a experiência da nossa querida equipe</p>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-5" id="info-banner">
+                        <img src="./assets/img/empresa.jpg" alt="Informações da impresa" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="title primary-color">Os dados que fazem a diferença</h2>
+                                <p class="subtitle secondary-color">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Suscipit fugiat consequuntur laudantium, vitae unde id iste laborum distinctio nobis
+                                    odit molestias maiores dicta rerum quae et a, soluta, sint labore!</p>
+                            </div>
+                            <div class="col-12" id="info-numbers">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h3 class="primary-color">18</h3>
+                                        <p class="secondary-color">Anos na área de tecnologia</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <h3 class="primary-color">98</h3>
+                                        <p class="secondary-color">Projetos executados</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <h3 class="primary-color">168</h3>
+                                        <p class="secondary-color">Clientes fixos</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <a href="#" class="button btn btn-dark">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="container-fluid bg-dark-color" id="footer">
+            <div class="container">
+                <div class="row">
+                    <!--FOOTER TOP-->
+                    <div class="col-12" id="footer-top">
+                        <div class="row justify-content-between">
+                            <div class="col-4">
+                                <h2>Michel Tech</h2>
+                            </div>
+                            <div class="col-4" id="social-icons">
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-twitter"></i>
+                                <i class="bi bi-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FOOTER DETAILS-->
+                    <div class="col-12" id="footer-details"></div>
+                    <div class="row d-flex justify-content-between">
+                        <div class="col12 col-md-4" id="news-container">
+                            <h4>Fique por dentro das novidades</h4>
+                            <p class="secondary-color">Inscreva-se para saber de tudo em primeira mão</p>
+                            <form action="https://formsubmit.co/21fa9448254505d25fb3693d68b488bc" method="post">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Digite o seu e-mail">
+                                </div>
+                                <button class="button btn btn-dark" type="submit">Inscrever-se</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-4" id="links-container">
+                            <div class="row">
+                                <h4>Você pode estar procurando por:</h4>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="secondary-color">Projetos</a></li>
+                                        <li><a href="#" class="secondary-color">Cotações</a></li>
+                                        <li><a href="#" class="secondary-color">Assistências</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="secondary-color">Contratar</a></li>
+                                        <li><a href="#" class="secondary-color">Trabalhe conosco</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FOOTER BOTTOM-->
+                    <div class="col-12" id="footer-bottom">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-md-3">
+                                <p class="secondary-color">Michel Tech &copy; 2023</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <p class="secondary-color">Conte conosco <i class="bi bi-heart"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+<script src="./js/index.js"></script>
+
+</html>
